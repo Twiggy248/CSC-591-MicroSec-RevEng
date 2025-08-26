@@ -12,7 +12,7 @@ int main() {
 
     // Create the results csv file
     FILE *fp = fopen("Exercise1_Results.csv", "w");
-    fprintf(fp, "Trail,Hit,Miss\n");
+    fprintf(fp, "Trial,Hit,Miss\n");
 
     // Initialize variables for timing, temporary storage, and the test data loaded into cache
     int hitStart, hitEnd, missStart, missEnd, hitTime, missTime;
