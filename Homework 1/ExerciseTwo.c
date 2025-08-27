@@ -20,7 +20,7 @@ int main() {
     
     afterOp = __rdtscp(&aux);
 
-    printf("Time: %d", afterOp-beforeOp);
+    printf("Time: %d\n", afterOp-beforeOp);
 
     return 0;
 }
