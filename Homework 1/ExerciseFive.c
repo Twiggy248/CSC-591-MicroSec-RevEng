@@ -32,7 +32,7 @@ int main() {
         result = _mm256_mul_ps(evens,odds);
         afterOp = __rdtscp(&aux);
 
-        first= afterOp - beforeOp;
+        first = afterOp - beforeOp;
 
         // Wait for 100ms
         usleep(100);
