@@ -8,7 +8,7 @@
 */
 int main() {
 
-    // Initialize variables for timing and timing
+    // Initialize variables for timing
     int beforeOp, afterOp, elapsedTime;
     int aux;
     
