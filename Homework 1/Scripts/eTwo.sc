@@ -1,4 +1,4 @@
 #! /bin/bash
-gcc -mavx ExerciseTwo.c -o ExerciseTwo
+gcc -mavx ../ExerciseTwo.c -o ExerciseTwo
 
 ./ExerciseTwo

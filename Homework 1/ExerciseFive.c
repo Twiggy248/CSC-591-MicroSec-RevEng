@@ -11,6 +11,9 @@
 */
 int main() {
 
+    // Note: Recorded the difference in the first and second operation timings just in case
+    // it was later revealed that it was information needed
+
     // Create the results csv file
     FILE *fp = fopen("Exercise5_Results.csv", "w");
     fprintf(fp, "Trial,First,Second,Difference\n");
