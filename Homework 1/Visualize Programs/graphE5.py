@@ -4,7 +4,7 @@ import numpy as np
 
 plt.style.use('_mpl-gallery')
 
-df = pd.read_csv("../Exercise5_Results.csv")
+df = pd.read_csv("../Datasets/Exercise5_Results.csv")
 
 First = df["First"]
 Second = df["Second"]

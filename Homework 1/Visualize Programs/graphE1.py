@@ -4,7 +4,7 @@ import numpy as np
 
 plt.style.use('_mpl-gallery')
 
-df = pd.read_csv("../Exercise1_Results.csv")
+df = pd.read_csv("../Datasets/Exercise1_Results.csv")
 
 hits = df["Hit"]
 misses = df["Miss"]
