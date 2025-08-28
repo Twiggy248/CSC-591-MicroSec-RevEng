@@ -4,7 +4,7 @@ import numpy as np
 
 plt.style.use('_mpl-gallery')
 
-df = pd.read_csv("../Datasets/Exercise5_Results.csv")
+df = pd.read_csv("../Datasets/Exercise4_Results.csv")
 
 First = df["First"]
 Second = df["Second"]
@@ -22,7 +22,7 @@ ax.hist(Second, bins=bins, alpha=0.6, label='Operation after Wait', histtype='st
 ax.legend()
 ax.set_xlabel('Duration in Ticks (1 tick/0.5ns)')
 ax.set_ylabel('Frequency')
-ax.set_title('Timing AVX2 Operations separated by 100ms')
+ax.set_title('Timing AVX512 Operations separated by 100ms')
 
 # Focus x-axis on the region containing the majority of the data
 combined = pd.concat([First, Second])
@@ -33,4 +33,4 @@ ax.set_xlim(left, right)
 # Ensure the figure is properly aligned and sized
 fig.tight_layout()
 
-plt.savefig("Exercise5_Graph.png")
+plt.savefig("Exercise4_Graph.png")

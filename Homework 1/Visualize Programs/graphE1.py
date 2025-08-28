@@ -20,9 +20,9 @@ bins = np.linspace(min_val, max_val, num_bins)
 ax.hist(hits, bins=bins, alpha=0.6, label='Hits', histtype='stepfilled', linewidth=1, color='green')
 ax.hist(misses, bins=bins, alpha=0.6, label='Misses', histtype='stepfilled', linewidth=1, color='red')
 ax.legend()
-ax.set_xlabel('Duration in nanoseconds')
+ax.set_xlabel('Duration in Ticks (1 tick/0.5ns)')
 ax.set_ylabel('Frequency')
-ax.set_title('Exercise One: Distribution of Cache Hits and Misses')
+ax.set_title('Distribution of Timing Cache Hits and Misses')
 
 # Focus x-axis on the region containing the majority of the data
 combined = pd.concat([hits, misses])
@@ -33,4 +33,4 @@ ax.set_xlim(left, right)
 # Ensure the figure is properly aligned and sized
 fig.tight_layout()
 
-plt.savefig("Exercise1.png")
+plt.savefig("Exercise1_Graph.png")
