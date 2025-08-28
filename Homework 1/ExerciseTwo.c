@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <immintrin.h> // Library for _rdtscp
+#include <immintrin.h> // Library for _rdtscp and AVX2 Operations
 #include <string.h>
 /**
     @file ExerciseTwo.c
