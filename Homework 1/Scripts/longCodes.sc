@@ -1,4 +1,4 @@
-# Thank you ChatGPT for helping me make this script
+# Thank you ChatGPT for helping me make this script 
 
 
 #!/usr/bin/env bash
