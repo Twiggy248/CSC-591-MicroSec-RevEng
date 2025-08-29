@@ -38,7 +38,7 @@ int main() {
         first = afterOp - beforeOp;
 
         // Wait for 100ms
-        usleep(100);
+        usleep(100000);
 
         // Perform and time the 2nd operation
         beforeOp = __rdtscp(&aux);
